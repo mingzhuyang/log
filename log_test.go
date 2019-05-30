@@ -61,7 +61,7 @@ func init() {
 		Level:   "debug",
 		File:    true,
 		Console:true,
-		Service: "log_test",
+		Service: "log_benchmark_test",
 		FileConfig: &LogFileConfig{
 			Name:  "test",
 			Path:  "./log",
